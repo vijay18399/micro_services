@@ -1,0 +1,63 @@
+
+{ 
+  "text" :"hello good morning",
+   "languages" : ["te","hi"]
+}
+
+{
+    "statusCode": 200,
+    "body": [
+        {
+            "detectedLanguage": {
+                "language": "en",
+                "score": 1
+            },
+            "translations": [
+                {
+                    "text": "హలో గుడ్ మార్నింగ్",
+                    "to": "te"
+                },
+                {
+                    "text": "नमस्ते गुड मॉर्निंग",
+                    "to": "hi"
+                }
+            ]
+        }
+    ],
+    "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "x-mt-system": "Microsoft,Microsoft",
+        "x-requestid": "TRAN.SY1P.0017.0313T1546.F92893",
+        "access-control-expose-headers": "X-RequestId, X-Metered-Usage",
+        "x-content-type-options": "nosniff",
+        "x-metered-usage": "36",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "date": "Fri, 13 Mar 2020 15:46:53 GMT",
+        "connection": "close",
+        "content-length": "216"
+    },
+    "request": {
+        "uri": {
+            "protocol": "https:",
+            "slashes": true,
+            "auth": null,
+            "host": "api.cognitive.microsofttranslator.com",
+            "port": null,
+            "hostname": "api.cognitive.microsofttranslator.com",
+            "hash": null,
+            "search": "?api-version=3.0&to%5B0%5D=te&to%5B1%5D=hi",
+            "query": "api-version=3.0&to%5B0%5D=te&to%5B1%5D=hi",
+            "pathname": "/translate",
+            "path": "/translate?api-version=3.0&to%5B0%5D=te&to%5B1%5D=hi",
+            "href": "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to%5B0%5D=te&to%5B1%5D=hi"
+        },
+        "method": "POST",
+        "headers": {
+            "Ocp-Apim-Subscription-Key": "5085fd39921f48a7ae74185c7210480e",
+            "Content-type": "application/json",
+            "X-ClientTraceId": "d19bf65e-2538-40f7-ada1-a7147d374fb9",
+            "accept": "application/json",
+            "content-length": 31
+        }
+    }
+}
